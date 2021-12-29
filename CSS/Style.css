@@ -1,0 +1,338 @@
+@font-face{
+    font-family: 'Raleway';
+    src: url('Font/Raleway.ttf'),
+            url('Font/Raleway-Black.ttf'),
+            url('Font/Raleway-BlackItalic.ttf'),
+            url('Font/Raleway-Bold.ttf'),
+            url('Font/Raleway-BoldItalic.ttf'),
+            url('Font/Raleway-ExtraBold.ttf'),
+            url('Font/Raleway-ExtraBoldItalic.ttf'),
+            url('Font/Raleway-ExtraLight.ttf'),
+            url('Font/Raleway-ExtraLightItalic.ttf'),
+            url('Font/Raleway-Italic'),
+            url('Font/Raleway-Italic-VariableFont_wght.ttf'),
+            url('Font/Raleway-Light.ttf'),
+            url('Font/Raleway-LightItalic.ttf'),
+            url('Font/Raleway-Medium.ttf'),
+            url('Font/Raleway-MediumItalic.ttf'),
+            url('Font/Raleway-Regular.ttf'),
+            url('Font/Raleway-SemiBold.ttf'),
+            url('Font/Raleway-SemiBoldItalic.ttf'),
+            url('Font/Raleway-Thin.ttf'),
+            url('Font/Raleway-ThinItalic.ttf');
+}
+*{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+.Icon_blue{
+    color: rgb(0, 101, 252);
+}
+.Icon_grey{
+    color: rgb(242, 242, 242);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+strong{
+    font-family: 'Arial';
+    font-weight: bold;
+}
+h1, h2, h3{
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+                /*----------En-tête----------*/
+
+HEADER{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px 53px 0px 48px;
+}
+#Logo{
+    height: 60px;
+    width: 120px;
+}
+nav a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav a:hover{
+    border-top: 3px rgb(0, 101, 252) solid;
+    padding-top: 40px;
+    color: rgb(0, 101, 252);
+}
+
+                /*----------Sous-Titre----------*/
+
+#Sous-Titre{
+    margin-left: 20px;
+    line-height: 15px;
+}
+
+                /*----------Formulaire----------*/
+
+FORM{
+    margin-left: 20px;
+    display: flex;
+}
+label{
+    background-color: rgb(242, 242, 242);
+    padding: 15px;
+    border-radius: 15px 0px 0px 15px;
+}
+#text{
+    border: 1px rgb(242, 242, 242) solid;
+    font-weight: bold;
+}
+#reach{
+    border: 0px solid;
+    background-color: rgb(0, 101, 252);
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0px 15px;
+}
+#reach_tel{
+    display: none;
+}
+
+                /*----------Filtres----------*/
+
+#filters{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30%;
+}
+.Icon_filters{
+    color: rgb(0, 101, 252);
+    background-color: rgb(222, 235, 255);
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: -20px;
+}
+.name_icon_filters{
+    border: 2px rgb(242, 242, 242) solid;
+    border-left: 0px;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 0px 20px 20px 0px;
+}
+.name_icon_filters:hover{
+    color: rgb(0, 101, 252);
+    cursor: pointer;
+}
+
+                /*----------Information----------*/
+
+#Information{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.Icon_info{
+    color: rgb(0, 101, 252);
+    margin-right: 10px;
+    border: 2px rgb(242, 242, 242) solid;
+    border-radius: 50%;
+    padding: 4px 10px;
+}
+
+                /*----------Hébergements----------*/
+
+#Hébergements_Populaires{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 20px 20px;
+}
+Article{
+    justify-content: space-around;
+    width: 60%;
+    padding: 20px 0px;
+    border-radius: 20px;
+    background-color: rgb(242, 242, 242);
+}
+.Titre_Hébergements{
+    margin-left: 50px;
+    align-items: center;
+}
+a .Titre_Hébergements:hover{
+    color: rgb(0, 101, 252);
+}
+.Total_cards_1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding-bottom: 15px;
+}
+.Total_cards_2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding-top: 15px;
+}
+.Card_hébergements{
+    width: 250px;
+    background-color: white;
+    border: 3px white solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px rgb(170, 170, 170);
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+@media screen and (max-width: 1400px) {
+    .Card_hébergements{
+        width: 180px;
+    }
+}
+.Card_hébergements:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+}
+.img_section1{
+    height: 150px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.text_hébergement{
+    margin: 10px;
+}
+
+                /*----------Populaires----------*/
+
+Aside{
+    border-radius: 20px;
+    width: 35%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(242, 242, 242);
+}
+#Titre_populaires{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+}
+.Cards_populaires{
+    display: flex;
+    border: 3px white solid;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px rgb(170, 170, 170);
+    margin: 0px 20px 20px 20px;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+.Cards_populaires:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+}
+.img_section2{
+    height: 150px;
+    width: 100%;
+    max-width: 130px;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+}
+.text_populaires{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+                /*----------Activités----------*/
+
+#Activités{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 20px;
+}
+#Total_cards_Activités{
+    display: flex;
+    justify-content: space-between;
+}
+.Cards_Activités{
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px white solid;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgb(242, 242, 242);
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+.Cards_Activités:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+}
+.img_section3_1{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.img_section3_2{
+    height: 150px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.img_section3_3{
+    height: 150px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.img_section3_4{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.img_section3L{
+    height: 422px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.column{
+    width: 350px;
+}
+.text_activités{
+    margin: 15px;
+}
+
+                /*----------Pied de page----------*/
+
+footer{
+    display: flex;
+    padding: 40px 50px;
+    background-color: rgb(242, 242, 242);
+}
+footer div{
+    flex: 1;
+}
+li{
+    margin-bottom: 15px;
+}
+li a:hover{
+    color: rgb(0, 101, 252);
+}

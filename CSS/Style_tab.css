@@ -1,0 +1,73 @@
+#Sous-Titre{
+    line-height: normal;
+}
+#filters{
+    margin-right: 0px;
+}
+#Hébergements_Populaires{
+    flex-direction: column-reverse;
+    margin: 0px;
+}
+.Card_hébergements:hover{
+    transform: none;
+}
+aside{
+    width: 100%;
+    border-radius: 0px;
+}
+.Cards_populaires{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.Cards_populaires:hover{
+    transform: none;
+}
+article{
+    width: 100%;
+    background-color: white;
+}
+.Titre_Hébergements{
+    text-align: center;
+}
+#titre_Activités{
+    text-align: center;
+}
+#Activités{
+    margin: 0px;
+}
+#Total_cards_Activités{
+    margin: 10px 20px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.column{
+    width: 100%;
+    margin: -20px 0px;
+}
+.Cards_Activités{
+    width: 100%;
+    margin: 20px 0px;
+}
+.Cards_Activités:hover{
+    transform: none;
+}
+.img_section3_1{
+    height: 250px;
+    width: 100%;
+}
+.img_section3_2{
+    height: 250px;
+    width: 100%;
+}
+.img_section3_3{
+    height: 250px;
+    width: 100%;
+}
+.img_section3_4{
+    height: 250px;
+    width: 100%;
+}
+.img_section3L{
+    height: 250px;
+    max-width: 100%;
+}

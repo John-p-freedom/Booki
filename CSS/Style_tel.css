@@ -1,0 +1,73 @@
+HEADER{
+    margin: 20px 0px;
+    flex-direction: column;
+    height: 130px;
+    width: 100%;
+}
+#Logo{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+nav a{
+    border-bottom: 3px rgb(242, 242, 242) solid;
+    padding: 0px 16% 10px 16%;
+}
+nav a:hover{
+    padding-top: 0px;
+    border-top: none;
+    border-bottom: 3px rgb(0, 101, 252) solid;
+    padding-bottom: 10px;
+}
+FORM{
+    justify-content: center;
+}
+#reach{
+    display: none;
+}
+#reach_tel{
+    display: block;
+    align-self: center;
+    border: 0px solid;
+    background-color: rgb(0, 101, 252);
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 16px 15px;
+}
+#filters{
+    flex-direction: column;
+    align-items: flex-start;
+    height: 300px;
+    justify-content: space-around;
+}
+.Total_cards_1{
+    flex-direction: column;
+    padding-bottom: 0px;
+    margin: 0px 20px;
+}
+.Total_cards_2{
+    flex-direction: column;
+    padding-top: 0px;
+    margin: 0px 20px;
+}
+.Card_hébergements{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.img_section1{
+    height: 250px;
+}
+.Cards_populaires{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+FOOTER{
+    flex-direction: column;
+    padding-left: 3%;
+}
